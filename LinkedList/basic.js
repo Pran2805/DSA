@@ -48,7 +48,7 @@ class linkedList {
     addAt(index, data) {
         if (index < 0 || index > this.size()) {
             console.error('Invalid index')
-            return -1;
+            return "Invalid index";
         }
 
         const newNode = new Node()
@@ -65,14 +65,14 @@ class linkedList {
 
     removeTop() {
         if (!this.head) {
-            return -1;
+            return "The Linked list is not been initialized yet !";
         }
         this.head = this.head.next;
     }
 
     removeEnd() {
         if (!this.head) {
-            return -1;
+            return "The linked list is not been initialized been yet!";
         }
 
         let current = this.head;
@@ -85,7 +85,7 @@ class linkedList {
 
     print() {
         if (!this.head) {
-            return -1;
+            return "Linked List is not been initialized yet";
         }
 
         if (!this.head.next) {
@@ -102,7 +102,7 @@ class linkedList {
     removeAt(index) {
         
         if (index < 0 || index >= this.size()) {
-            return -1;
+            return "invalid index";
         }
 
         if (index === 1) {
