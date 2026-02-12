@@ -30,11 +30,12 @@ Output:
 2 * 10 = 20
  */
 public class multiplicationTable {
-    public static void table(int num){
-        for (int i = 1; i <=10; i++){
-            System.out.println(num + "*" + i + "=" + (num*i));
+    public static void table(int num) {
+        for (int i = 1; i <= 10; i++) {
+            System.out.println(num + "*" + i + "=" + (num * i));
         }
     }
+
     static void main() {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a number to print the table");

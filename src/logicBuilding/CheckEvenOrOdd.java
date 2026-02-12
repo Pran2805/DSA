@@ -5,11 +5,8 @@ import java.util.Scanner;
 public class CheckEvenOrOdd {
 
     public static boolean checkNumber(int num) {
-        if (num % 2 == 0) {
-            return true;
-        } else {
-            return false;
-        }
+        return num % 2 == 0;
+
     }
 
     public static void main(String[] args) {
