@@ -17,6 +17,8 @@ public class CheckEvenOrOdd {
         System.out.println("Enter number to check it is a even or odd");
         int num = sc.nextInt();
         System.out.println(checkNumber(num));
+
+        sc.close();
     }
 
 }
