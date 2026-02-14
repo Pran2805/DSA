@@ -28,5 +28,7 @@ public class PrimeTesting {
         System.out.println("Enter a number to check number is prime or not");
         int num = sc.nextInt();
         System.out.println(num+" Is Prime: "+isPrime(num));
+
+        sc.close();
     }
 }
