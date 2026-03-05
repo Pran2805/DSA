@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 public class Solution {
 
-    static void main(String[] args) {
+    static void main(String[] giargs) {
         Scanner scan = new Scanner(System.in);
         int a = scan.nextInt();
         int b = scan.nextInt();
