@@ -20,7 +20,6 @@ public class IoCode {
         int i = scan.nextInt();
         double d = scan.nextDouble();
         String s = scan.nextLine();
-        s += scan.nextLine();
 
         scan.close();
 

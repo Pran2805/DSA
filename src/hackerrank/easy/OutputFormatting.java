@@ -1,7 +1,7 @@
 package hackerrank.easy;
 import java.util.Scanner;
 
-// required string builder continously failing just because of one space
+// required string builder continuously failing just because of one space
 // todo: learn string builder first
 public class OutputFormatting {
     static void main(String[] args) {
